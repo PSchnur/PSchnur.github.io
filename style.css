@@ -1,0 +1,370 @@
+/* GENERAL */
+
+*
+{
+    margin:  0px;
+    padding: 0;  
+}
+
+body
+{
+    font-family:"Century Gothic",Arial,sans-serif;
+    font-size:1em;
+    color:#0d2f38;
+}
+
+h1
+{
+    font-size:3.5em;
+    color:white;
+    text-align: center;
+}
+
+section h2
+{
+    color:#0d2f38;
+    text-transform: uppercase;
+    font-size:2.5em;
+    text-align: center;
+    font-weight :normal;
+    margin-top: 50px;
+    line-height: 5px;
+    margin-bottom: 50px;
+}
+
+section h2 span {
+  position: relative;  
+}
+
+section h2 span:before,
+section h2 span:after {
+    content: "";
+    position: absolute;
+    border-top: 5px solid #0d2f38;
+    width: 50px;
+    
+}
+section h2 span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+section h2 span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+
+h3
+{
+    font-size:1.5em;
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+header
+{
+    height:120px;
+    background-color: #0d2f38;
+}
+
+header nav {
+  text-align: right;
+  padding-right: 20px;
+}
+
+header nav ul li
+{
+    display:inline-block;
+    height: 100%;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    margin-top: 25px;
+    line-height: 70px;
+    padding: 0 10px;
+    transition-duration: 0.5s;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(251, 211, 175, 1);
+    color: #0d2f38;
+}
+
+
+/* HEROS */
+
+#about
+{
+    height:600px;
+    background: url("https://i.imgur.com/OKq7jtW.jpg") center;
+    background-size: cover;
+    padding: 20px 0;
+}
+
+#about h3
+{
+    color: white;
+    font-weight: normal;
+    padding-top: 150px
+}
+
+#about h1
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+
+/* HISTORY */
+
+#history
+{
+    background-color: white;
+    padding: 20px 0;
+}
+
+#history article
+{
+    width: 900px;
+    height: 300px;
+    margin: 50px auto 50px auto;
+    background: url("https://i.imgur.com/2jnEY3q.jpg");
+    border: solid 1px #c3bebb;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.overlay
+{
+    background: rgba(255,255,255, 0.90);
+    height:100%;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#history article h3
+{
+    color: #0d2f38;
+    border-bottom: 1px solid #0d2f38;
+    text-transform: uppercase; 
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#history article p
+{
+    font-size: 0.9em;
+    font-style: italic;
+    text-align: center;
+}
+
+
+/* FAMILY ROAL*/
+
+#royal-family{
+    background-color: rgba(251, 211, 175, 0.2);
+    padding: 20px 0 50px 0;
+}
+
+.container
+{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.family-member
+{
+      width: 250px;
+}
+
+.family-member img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+
+.family-member h3
+{
+    color: #0d2f38;
+    text-transform: uppercase; 
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #0d2f38; 
+}
+
+.family-member p
+{
+    color: #0d2f38;
+}
+
+/* TABLEAU */
+
+
+#tableau
+{
+    padding: 20px 0;
+}
+
+#tableau table{
+    
+    width: 900px;
+    margin: 50px auto 50px auto; 
+    
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+    text-align: center;
+    table-layout: fixed;
+    
+    border-bottom: 2px solid #0d2f38;
+    border-right: 2px solid #0d2f38;
+    border-left: 2px solid #0d2f38;
+    border-top: 2px solid #0d2f38;
+}
+
+#tableau table th {
+    
+    padding: 10px 10px;
+    border: 1px solid #fff;
+    background: #0d2f38;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#tableau table td{
+    
+    padding: 10px 10px;
+    border: 1px solid #0d2f38;
+}
+
+
+#tableau table tr:hover {
+    background: #1b6376;
+    
+}
+#tableau table tr:hover td {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/* CONTACT US */
+
+#contact
+{
+    padding: 20px 0;
+    background-color: rgba(251, 211, 175, 0.2);
+}
+
+#contact p
+{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#contact form
+{
+
+    width: 900px;
+    height: 380px;
+    margin: 10px auto 20px auto;
+}
+
+label
+{
+    font-size: 20px;
+    color: #0d2f38;
+}
+
+textarea,
+input[type="text"]
+{
+    padding: 5px;
+    font-family:"Century Gothic",Arial,sans-serif;
+    font-size: 15px;
+    margin: 5px auto 20px auto;
+    border: 2px solid rgba(13, 47, 56, 0.5);
+    border-radius: 5px;
+}
+
+textarea
+{
+    width: 900px;
+    height: 100px;
+}
+
+input[type="text"]
+{
+    width: 300px;
+}
+
+button[type="submit"]
+{
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #1b6376;
+    border: 2px solid rgba(13, 47, 56, 0.5);
+    border-radius: 5px;
+    
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+button[type="submit"]:hover
+{
+    color: #fff;
+    background-color: #0d2f38;
+    
+}
+
+/* FOOTER */
+
+footer
+{
+    height:120px;
+    background-color: #0d2f38;
+    
+}
+
+footer p
+{
+    text-align: center;
+    color: #fff;
+    
+    padding: 40px;
+}
+
+
+footer a
+{
+    text-transform: uppercase;
+    color:#fff;
+}
+
