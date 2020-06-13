@@ -1,0 +1,360 @@
+/* GENERAL */
+
+*
+{
+    margin:  0px;
+    padding: 0px;  
+}
+
+body
+{
+    font-family:"Century Gothic",Arial,sans-serif;
+    font-size:15px;
+    color:#444;
+}
+
+h1
+{
+    font-family :"Amatic SC",cursive,sans-serif;
+    font-size:45px;
+    color:#fff;
+}
+
+h2
+{
+    font-family:"Amatic SC", cursive, sans-serif;
+    font-size:200px;
+    color:#444;
+    
+}
+
+h3
+{
+    font-family :"Amatic SC",cursive,sans-serif;
+    font-size:80px;
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+h4
+{
+    font-family :"Amatic SC",cursive,sans-serif;
+    font-size:45px;
+}
+
+
+.wrapper
+{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.clear
+{
+    clear: both;
+}
+
+/* HEADER */
+
+header
+{
+    height:120px;
+    background-color: #634159;
+}
+
+header h1
+{
+    float:left;
+    margin: 31px;
+}
+
+header nav
+{
+    float:right;
+}
+
+header nav ul li
+{
+    display:inline-block;
+    height: 100%;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    margin-top: 25px;
+    line-height: 70px;
+    padding: 0 10px;
+    transition-duration: 0.5s;
+    border-radius: 5px;
+
+
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+
+/* IMAGE PRINCIPAL */
+
+#image-principale
+{
+    height:700px;
+    background: url("img/image_principale.png") center no-repeat;
+    
+    padding: 20px 0;
+}
+
+#image-principale h2
+{
+    text-transform: uppercase;
+    text-align: center;
+    color:#ffc663;
+    text-shadow: 10px 0 0 #3e000f, 0 2px 0 #3e000f, 0 -2px 0 #3e000f, -2px 0 0 #3e000f, 2px 2px 0 #3e000f,  2px -2px 0 #3e000f, -2px 2px 0 #3e000f, -2px -2px 0 #3e000f, 0 0 10px #3e000f;
+    margin :100px 0 0 0 ;
+}
+
+
+/* PERFORMANCES */
+
+#performances 
+{
+    background-color: #f04744;
+    padding: 20px 0;
+}
+
+#performances h3
+{
+    color:#fff;
+}
+
+#performances ul
+{
+    margin: 50px auto 20px auto;
+}
+
+
+#performances ul li
+{
+    width:300px;
+    float: left;
+    text-align: center;
+    margin: 0 10px;
+}
+
+#performances h4
+{
+    color:#fff;
+    text-transform: uppercase; 
+    margin: 10px;
+}
+
+#performances p
+{
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+
+/* ABOUT US */
+
+#about-us-cards
+{
+    background-color: #ffc663;
+    padding: 20px 0;
+}
+
+#about-us-cards h3
+{
+    color: #444;
+}
+
+#about-us-cards article
+{
+    width: 940px;
+    height: 300px;
+    border-radius: 10px; 
+    margin: 50px auto 20px auto;
+    background: url("img/about-us-image.jpg");
+}
+
+.overlay
+{
+    background: rgba(255,255,255, 0.90);
+    height:100%;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+article h4
+{
+    color: #444;
+    border-bottom: 1px solid #444;
+    text-transform: uppercase; 
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+article p
+{
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
+    color:#444;
+    margin-bottom: 0px;
+}
+
+
+
+/* PRICES */
+
+
+#prices
+{
+    background-color: #f04744;
+    padding: 20px 0;
+}
+
+#prices h3
+{
+    color: #fff;
+}
+
+#prices table
+{
+    margin: 50px auto 20px auto; 
+    width: 940px;
+    height: 150px;
+    border-radius: 10px; 
+    color : #444;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+
+#prices th, td
+{ 
+    border: 1px solid #444;
+
+}
+
+
+
+/* CONTACT */
+
+#contact
+{
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+#contact h3
+{
+    color: #444;
+    width: 400px;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid black;  
+}
+
+#contact p
+{
+    text-align: center;
+}
+
+#contact form
+{
+    width: 940px;
+    height: 300px;
+    margin: 50px auto 20px auto;
+}
+
+label
+{
+    font-size: 20px;
+    color: #444;
+}
+
+textarea, input[type="text"]
+{
+    padding: 5px;
+    font-family:"Century Gothic",Arial,sans-serif;
+    font-size: 15px;
+    margin: 5px auto 20px auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea
+{
+    width: 940px;
+    height: 100px;
+}
+
+input[type="text"]
+{
+    width: 200px;
+}
+
+.button3
+{
+    width: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #444;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.button3:hover
+{
+    background: #f04744;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer
+{
+    height:120px;
+    background-color: #634159;
+}
+
+footer p
+{
+    text-align: center;
+    color: #fff;
+    
+    padding: 40px;
+}
+
+
+footer a
+{
+    text-transform: uppercase;
+    color:#fff;
+}
+
