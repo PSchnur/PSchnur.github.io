@@ -1,0 +1,124 @@
+/* GENERAL */
+
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+body {
+  font-family: "Calibri light", Arial, sans-serif;
+}
+
+
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.panel {
+    width: 50vw;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 10px auto 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/* HERO */
+.image {
+    background: url("img/image-hero.jpg");
+}
+
+.image h1 {
+    margin: 700px 0 0 100px;
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* ABOUT */
+.content {
+    padding: 25px;
+}
+
+.content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.content ul li {
+    display: inline-block;
+    margin: auto 10px 25px 10px;
+}
+
+.about a, article a {
+	font-weight: bold;
+}
+
+.content a {
+	color: #06267e;
+	text-decoration: none;
+}
+
+.content a:hover {
+    color: #020a21;
+}
+
+.social-icon {
+    font-size: 2.5em;
+}
+
+.about {
+	width: 40vw;
+    text-align: justify;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+.content article {
+    width: 40vw;
+    height: 20vh;
+    margin: 35px auto;
+    border: solid 1px #c3bebb;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#wild-circus {
+    background: url("img/colchis.jpg");
+}
+
+#colchis {
+    background: url("img/wildcircus.jpg");
+}
+
+.overlay {
+      background: rgba(255, 255, 255, 0.9);
+      height: 100%;
+      width: 45%;
+      padding: 10px;
+      text-align: center;
+      box-sizing: border-box;
+}
+
+.content article h2 {
+  border-bottom: 1px solid #0d2f38;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.content article p {
+  font-size: 0.9em;
+  font-style: italic;
+  text-align: center;
+}
